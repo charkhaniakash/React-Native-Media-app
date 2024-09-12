@@ -1,0 +1,289 @@
+{
+  "submission_id": 2517,
+  "master_form_id": "5c09d8d4-f1e9-4b4d-9b9a-69fde7c6dabe",
+  "disease_id": 7,
+  "disease_name": "AML",
+  "status": "Published",
+  "created_on": "2024-09-10T09:07:11.669746Z",
+  "subdiseases": [],
+  "stagings": [
+    {
+      "staging_line_id": null,
+      "treatment_line_details_id": 0,
+      "staging": [
+        {
+          "stageid": 914,
+          "stagename": "Chronic Phase"
+        }
+      ],
+      "treatment_lines": [
+        {
+          "treatmentlineid": 330,
+          "treatmentlinename": "1st Line Maintenance",
+          "eligibilities": [
+            {
+              "id": 138,
+              "name": "Aggressive Therapy"
+            }
+          ],
+          "risks": [],
+          "mutations": [],
+          "drugs": [
+            {
+              "drug_line_item_id": 0,
+              "aon_prefered_name": "AON-PREF Non-VBC",
+              "nccn_category_name": "",
+              "off_label_name": "OFF-LABEL",
+              "aon_prefered_id": 718,
+              "nccn_category_id": null,
+              "off_label_id": 6,
+              "drug_line_string": "74 → 100 or 61",
+              "regimen": "this is regimen",
+              "misc": "After preoperative systemic therapy if CPS+EG >3, and residual disease. After adjuvant chemotherapy if ≥4 +LN*",
+              "drug_classes": [],
+              "drug_combinations": [
+                {
+                  "drug_id": 74,
+                  "drug_name": "ADT",
+                  "blog_links": [],
+                  "brand": null,
+                  "drug_item_id": 0
+                },
+                {
+                  "drug_id": 100,
+                  "drug_name": "DDMVAC",
+                  "blog_links": [],
+                  "brand": null,
+                  "drug_item_id": 0
+                },
+                {
+                  "drug_id": 61,
+                  "drug_name": "durvalumab (IMFINZI)",
+                  "blog_links": [],
+                  "brand": "ONUREG",
+                  "drug_item_id": 0
+                }
+              ],
+              "drug_name_string": [
+                "ADT",
+                "→",
+                "DDMVAC",
+                "or",
+                "durvalumab (IMFINZI)"
+              ],
+              "drug_item_id": 0
+            },
+            {
+              "drug_line_item_id": 0,
+              "aon_prefered_name": "",
+              "nccn_category_name": "",
+              "off_label_name": "VBC",
+              "aon_prefered_id": null,
+              "nccn_category_id": null,
+              "off_label_id": 716,
+              "drug_line_string": "571",
+              "regimen": null,
+              "misc": "After preoperative systemic therapy if CPS+EG >3, and residual disease. After adjuvant chemotherapy if ≥4 +LN*",
+              "drug_classes": [
+                {
+                  "drug_class_id": 281,
+                  "drug_class_name": "Anti-CD19 CAR T-Cell Therapy",
+                  "drug_item_id": 1
+                }
+              ],
+              "drug_combinations": [
+                {
+                  "drug_id": 571,
+                  "drug_name": "ingAdd                    Drug",
+                  "blog_links": [],
+                  "brand": "",
+                  "drug_item_id": 1
+                }
+              ],
+              "drug_name_string": ["ingAdd                    Drug"],
+              "drug_item_id": 1
+            }
+          ],
+          "eligibility_combination": "and",
+          "mutation_combination": null,
+          "treatment_line_details_id": 0,
+          "treatment_line_id": 0,
+          "stage_line_id": 0
+        },
+        {
+          "treatmentlineid": 715,
+          "treatmentlinename": "2nd Line and Beyond",
+          "eligibilities": [
+            {
+              "id": 336,
+              "name": "Class A only"
+            },
+            {
+              "id": 385,
+              "name": "Clinically Localized (N0M0)"
+            },
+            {
+              "id": 776,
+              "name": "Conventional Dose Chemotherapy"
+            }
+          ],
+          "risks": [],
+          "mutations": [],
+          "drugs": [
+            {
+              "drug_line_item_id": 0,
+              "aon_prefered_name": "",
+              "nccn_category_name": "",
+              "off_label_name": "VBC",
+              "aon_prefered_id": null,
+              "nccn_category_id": null,
+              "off_label_id": 716,
+              "drug_line_string": "123",
+              "regimen": null,
+              "misc": "After preoperative systemic therapy if CPS+EG >3, and residual disease. After adjuvant chemotherapy if ≥4 +LN*",
+              "drug_classes": [],
+              "drug_combinations": [
+                {
+                  "drug_id": 123,
+                  "drug_name": "177 lu-dotatate",
+                  "blog_links": [],
+                  "brand": null,
+                  "drug_item_id": 0
+                }
+              ],
+              "drug_name_string": ["177 lu-dotatate"],
+              "drug_item_id": 0
+            }
+          ],
+          "eligibility_combination": "and/or",
+          "mutation_combination": null,
+          "treatment_line_details_id": 0,
+          "treatment_line_id": 1,
+          "stage_line_id": 0
+        },
+        {
+          "treatmentlineid": 133,
+          "treatmentlinename": "Neoadjuvant",
+          "eligibilities": [
+            {
+              "id": 895,
+              "name": "Anthracycline And Taxane In Adj Or Met Setting"
+            },
+            {
+              "id": 142,
+              "name": "Bortezomib-Refractory"
+            },
+            {
+              "id": 897,
+              "name": "Breast Cancer In Males"
+            }
+          ],
+          "risks": [],
+          "mutations": [],
+          "drugs": [
+            {
+              "drug_line_item_id": 0,
+              "aon_prefered_name": "",
+              "nccn_category_name": "",
+              "off_label_name": "",
+              "aon_prefered_id": null,
+              "nccn_category_id": null,
+              "off_label_id": null,
+              "drug_line_string": "534 → 123 or 541",
+              "regimen": null,
+              "misc": "",
+              "drug_classes": [],
+              "drug_combinations": [
+                {
+                  "drug_id": 534,
+                  "drug_name": "ab",
+                  "blog_links": [],
+                  "brand": null,
+                  "drug_item_id": 0
+                },
+                {
+                  "drug_id": 123,
+                  "drug_name": "177 lu-dotatate",
+                  "blog_links": [],
+                  "brand": null,
+                  "drug_item_id": 0
+                },
+                {
+                  "drug_id": 541,
+                  "drug_name": "azacitidine",
+                  "blog_links": [],
+                  "brand": null,
+                  "drug_item_id": 0
+                }
+              ],
+              "drug_name_string": [
+                "ab",
+                "→",
+                "177 lu-dotatate",
+                "or",
+                "azacitidine"
+              ],
+              "drug_item_id": 0
+            }
+          ],
+          "eligibility_combination": "or",
+          "mutation_combination": null,
+          "treatment_line_details_id": 0,
+          "treatment_line_id": 2,
+          "stage_line_id": 0
+        }
+      ],
+      "stage_line_id": 0
+    },
+    {
+      "staging_line_id": null,
+      "treatment_line_details_id": 0,
+      "staging": [
+        {
+          "stageid": 701,
+          "stagename": "Nodal"
+        }
+      ],
+      "treatment_lines": [
+        {
+          "treatmentlineid": 121,
+          "treatmentlinename": "Accelerated",
+          "risks": [],
+         "mutations": ["HR-", "HER2-" ,"HER2-"],
+          "eligibility_combination": "or",
+          "mutation_combination": null,
+          "treatment_line_details_id": 0,
+          "treatment_line_id": 0,
+          "stage_line_id": 1
+        },
+        {
+          "treatmentlineid": 396,
+          "treatmentlinename": "No Previous Platinum Based Neoadjuvant Therapy",
+          "risks": [],
+          "mutations": ["HR-", "HER2-"],
+          "eligibility_combination": "and/or",
+          "mutation_combination": null,
+          "treatment_line_details_id": 0,
+          "treatment_line_id": 1,
+          "stage_line_id": 1
+        },
+        {
+          "treatmentlineid": 392,
+          "treatmentlinename": "No Previous Platinum Based Neoadjuvant Therapy",
+          "risks": [],
+          "mutations": ["HR-"],
+          "eligibility_combination": "and/or",
+          "mutation_combination": null,
+          "treatment_line_details_id": 0,
+          "treatment_line_id": 1,
+          "stage_line_id": 1
+        }
+      ],
+      "stage_line_id": 1
+    }
+  ],
+  "nccn_notes": "All NCCN recommendations are category 2A unless otherwise indicated",
+  "general_notes": null,
+  "nccn_version": "2.2024",
+  "nccn_date": "2024-08-21T00:00:00Z"
+}

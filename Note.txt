@@ -1,0 +1,15 @@
+1) Expo Router
+
+2) Nativewind
+
+3) Appwrite ( to add Auth , database , and much more)
+-->   package name :- com.akash.auro
+
+4) appwrite sdk for react native
+--> https://github.com/appwrite/sdk-for-react-native
+
+
+Additional packages:-
+
+
+npm install react-native-animatabel expoo-av
